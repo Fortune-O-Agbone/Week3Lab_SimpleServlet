@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Week 3 Lab_Calculator</title>
     </head>
-    <body>
+    <body>       
         <h1>Age Calculator</h1>
      
         <form method="post" action="age">
@@ -19,8 +19,10 @@
             <input type="submit" value="Age next birthday">
         </form>
         
-        <ul>
-            <li><a href="arithmetic">Arithmetic Calculator</a></li>
-        </ul>
+        <p>${newAge}</p>
+        <p>${error}</p>
+        
+
+        <a href="arithmetic">Arithmetic Calculator</a>
     </body>
 </html>

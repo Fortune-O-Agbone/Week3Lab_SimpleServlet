@@ -14,7 +14,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ArithmeticCalculatorServlet</servlet-name>
-        <url-pattern>/ArithmeticCalculatorServlet</url-pattern>
+        <url-pattern>/arithmetic</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
@@ -23,5 +23,8 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>age</welcome-file>
+    </welcome-file-list>
+    <welcome-file-list>
+        <welcome-file>arithmetic</welcome-file>
     </welcome-file-list>
 </web-app>
